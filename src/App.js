@@ -60,8 +60,8 @@ function App() {
           Teste de compartilhamento2
         </button>
       </header>
-      <img src="./image1.jpg"/>
-      <img src="./image2.jpg"/>
+      <img src="./image1.jpg" alt="teste1"/>
+      <img src="./image2.jpg"  alt="teste2"/>
     </div>
   );
 }
