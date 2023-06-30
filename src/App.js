@@ -2,17 +2,16 @@ import "./App.css";
 
 function App() {
   const handleOnClickModalWithFilesArray = async () => {
-
     const image1 = await fetch("./image1.jpg");
     const image2 = await fetch("./image2.jpg");
     const blob1 = await image1.blob();
     const blob2 = await image2.blob();
-    const file1 = new File([blob1], 'image.jpg', { type: 'image/jpeg' });
-    const file2 = new File([blob2], 'image.jpg', { type: 'image/jpeg' });
+    const file1 = new File([blob1], "image.jpg", { type: "image/jpeg" });
+    const file2 = new File([blob2], "image.jpg", { type: "image/jpeg" });
 
-    const filesArray =  [file1, file2]
+    const filesArray = [file1, file2];
 
-    if (navigator.canShare && navigator.canShare({ files: filesArray})) {
+    if (navigator.canShare && navigator.canShare({ files: filesArray })) {
       const shareData = {
         title: "MDN",
         text: "Learn web development on MDN!",
@@ -21,7 +20,7 @@ function App() {
 
       navigator
         .share({
-          files:filesArray,
+          files: filesArray,
           ...shareData,
         })
         .then(() => console.log("Share was successful."))
@@ -60,8 +59,8 @@ function App() {
           Teste de compartilhamento2
         </button>
       </header>
-      <img src="./image1.jpg" alt="teste1"/>
-      <img src="./image2.jpg"  alt="teste2"/>
+      <img src="./image1.jpg" alt="teste1" />
+      <img src="./image2.jpg" alt="teste2" />
     </div>
   );
 }
