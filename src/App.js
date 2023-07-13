@@ -11,8 +11,7 @@ function App() {
     if (navigator.canShare && navigator.canShare({ files: filesArray })) {
       const shareData = {
         title: "MDN",
-        text: "Learn web development on MDN!",
-        url: "https://developer.mozilla.org Texto de auxilio",
+        text: "https://developer.mozilla.org Learn web development on MDN!",
       };
 
       navigator
@@ -42,8 +41,7 @@ function App() {
     if (navigator.canShare && navigator.canShare({ files: filesArray })) {
       const shareData = {
         title: "MDN",
-        text: "Learn web development on MDN!",
-        url: "https://developer.mozilla.org Texto de auxilio",
+        text: "https://developer.mozilla.org Learn web development on MDN!",
       };
 
       navigator
@@ -64,8 +62,7 @@ function App() {
     if (navigator.canShare) {
       const shareData = {
         title: "MDN",
-        text: "Learn web development on MDN!",
-        url: "https://developer.mozilla.org Texto de auxilio",
+        text: "https://developer.mozilla.org Learn web development on MDN!",
       };
 
       navigator
