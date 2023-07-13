@@ -12,7 +12,7 @@ function App() {
       const shareData = {
         title: "MDN",
         text: "Learn web development on MDN!",
-        url: "https://developer.mozilla.org",
+        url: "https://developer.mozilla.org Learn web development on MDN",
       };
 
       navigator
@@ -43,7 +43,7 @@ function App() {
       const shareData = {
         title: "MDN",
         text: "Learn web development on MDN!",
-        url: "https://developer.mozilla.org",
+        url: "https://developer.mozilla.org Learn web development on MDN",
       };
 
       navigator
@@ -65,7 +65,7 @@ function App() {
       const shareData = {
         title: "MDN",
         text: "Learn web development on MDN!",
-        url: "https://developer.mozilla.org",
+        url: "https://developer.mozilla.org Learn web development on MDN!",
       };
 
       navigator
